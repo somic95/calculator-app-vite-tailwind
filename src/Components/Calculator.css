@@ -1,0 +1,26 @@
+.number, .clear-btn {
+    height: 50px;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    background-color: #4e4e4e;
+    color: #fff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.operator, .equal {
+    font-size: 50px;
+    background-color: #ffa500;
+    color: white;
+    padding-bottom: 10px;
+    border-radius: 50px;
+    
+}
+button:hover {
+    filter: brightness(70%);
+}
+button:active {
+    transform: translateY(-2px);
+    opacity: 0.5;
+}
